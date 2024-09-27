@@ -1,0 +1,13 @@
+html{
+    background-color: bisque;
+}
+.container{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;}
+.container > div{
+    border: 1px solid black;
+}
+.CE{
+    justify-content: center
+}
