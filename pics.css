@@ -3,11 +3,19 @@ html{
 }
 .container{
     display:grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;}
+    
+    height: 1345px;
+    width: 1255px;
+    border: 2px solid #ff0000;
+    gap: 5px;}
+
+
+
 .container > div{
     border: 1px solid black;
 }
 .CE{
-    justify-content: center
+    justify-content: center;
+    background-image: url(Costume\ Expressions.png);
+    grid-area: express;
 }
