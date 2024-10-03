@@ -9,7 +9,7 @@ html{
     border: 2px solid #ff0000;
     gap: 5px;
     grid-template-columns: 250px 250px 250px 250px 250px;
-    grid-template-rows: 65px 65px 178px 380px 250px 150px 154px 95px;
+    grid-template-rows: 65px 76px 178px 380px 250px 150px 154px 95px;
     }
 
 
@@ -20,7 +20,7 @@ html{
 .CE{
     /* height: 319px;
     width: 1000px; */
-    background-image: url();
+        background-image: url(ce_logo.png);
         grid-column: 1/5;
         grid-row: 1/4;
         background-repeat: no-repeat;
@@ -33,4 +33,37 @@ html{
     background-image: url(facebook.png)
   
 }
+.twitter{
+    background-image: url(twitter.png);
+    grid-column: 5/5;
+    grid-row: 2/2;
+}
+.face{
+    background-image: url(face.png);
+    grid-column: 5/5;
+    grid-row: 3/3;
+}
 
+.birthday{
+    background-image: url(birth.png);
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+.serious{
+    background-image: url(serious.png);
+    grid-column: 3/3;
+    grid-row: 4/4;
+}
+.all-ages{
+    background-image: url(all-ages.png);
+    grid-row: 4/4;
+}
+.wigs{
+    background-image: url(wigs.png);
+    grid-row: 4/4;
+}
+.play{
+    background-image: url(play.png);
+    grid-column: 1/1;
+    grid-row: 5/7;
+}
