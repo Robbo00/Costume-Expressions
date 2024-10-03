@@ -67,3 +67,44 @@ html{
     grid-column: 1/1;
     grid-row: 5/7;
 }
+.super{
+    background-image: url(super.png);
+    grid-row: 5/5;
+    grid-column: 2/4;
+}
+.candy{
+    background-image: url(candy.png);
+
+}
+.hat{
+    background-image: url(hat.png);
+}
+.xmas{
+    grid-row: 6/8;
+    grid-column: 2/2;
+    background-image: url(xmas.png);
+}
+.cursive{
+    background-image: url(ce_image14.png);
+    grid-column: 3/5;
+    grid-row: 6/6;
+}
+.shipping{
+    background-image: url(green.png);
+}
+.props{
+    background-image: url(props.png);
+}
+.three1{
+    background-image: url(kid1.png);
+
+}
+.three2{
+    background-image: url(kid2.png);
+}
+.witch{
+    background-image: url(witch.png);
+}
+.dark{
+    background-image: url(dark-mask.png);
+}
